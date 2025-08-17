@@ -13,7 +13,7 @@ const orderOptions = {
         'wlikwmefwe.kfjo': 'Soy sauce',
         'wle,,13mre,m1,,': 'Hot sauce',
         'wle,,1m3,3m4p1j': 'Sesame oil',
-        'p1p19081-3981-3': 'S eawead',
+        'p1p19081-3981-3': 'Seawead',
     }
 }
 
