@@ -1,0 +1,21 @@
+.order-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 300px;
+    padding: 8px;
+    
+
+    &__entry {
+        display: flex;
+        flex-direction: row;
+        padding:8px;
+    }
+
+    &__label {
+        font-weight: 600;
+        color: gray;
+    }
+}
