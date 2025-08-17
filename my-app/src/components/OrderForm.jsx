@@ -7,7 +7,7 @@ const OrderForm = () => {
 
     const optionsRenderer = (options) => (
         <select>
-            {options.map((option, index) => (
+            {options.map((option) => (
                 <option key={option}>{option}</option>
             ))}
         </select>
@@ -15,8 +15,8 @@ const OrderForm = () => {
 
     const dressingsRenderer = (options) => (
         <div className={`${DEFAULT_CLASSNAME}__dressings`}>
-            {options.map((option, index) => (
-                <div className={`${DEFAULT_CLASSNAME}__dressing`}>
+            {options.map((option) => (
+                <div className={`${DEFAULT_CLASSNAME}__dressing`} key={`${option}-${option.id}`}>
                     <input checked={false} type={'checkbox'}></input>
                     <label>{option}</label>
                 </div>

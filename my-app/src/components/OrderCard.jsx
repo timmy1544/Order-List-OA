@@ -3,7 +3,7 @@ import './OrderCard.scss';
 const DEFAULT_CLASSNAME = 'order-card'
 
 const OrderCard = ({
-    order
+    order,
 }) => {
     const {
         base, protein, dressings
@@ -19,8 +19,8 @@ const OrderCard = ({
                 <div className={`${DEFAULT_CLASSNAME}__content`}>{protein}</div>
             </div>
             <div className={`${DEFAULT_CLASSNAME}__entry`}>
-                <div className={`${DEFAULT_CLASSNAME}__label`}>Dressing:</div>
-                <div className={`${DEFAULT_CLASSNAME}__content`}>{dressings.join(',')}</div>
+                <div className={`${DEFAULT_CLASSNAME}__label`}>Dressings:</div>
+                <div className={`${DEFAULT_CLASSNAME}__content`}>{dressings.join(', ')}</div>
             </div>
         </div>
     )
